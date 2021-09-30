@@ -15,6 +15,7 @@ const forecast= (query ,callback) =>{
             console.log('somthing in your local went wrong')
         }else{
             callback(body)
+            
         }
     })
 }
